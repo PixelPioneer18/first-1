@@ -1,0 +1,65 @@
+body{
+    background-color: #1A1A1D;}
+
+    #profil{
+        color: white;
+        text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    margin: 20px;
+    margin-bottom: 10px;
+    }
+
+hr{
+    border: 1px solid  #4E4E50;
+    padding: 10px;
+    padding-bottom: 1px; 
+    margin-top: 15px;
+    margin-left: 0;
+    margin-right: 0px;
+}
+#imdiv{
+background: #4E4E50;
+height: 160px;
+width: 160px;
+border-radius: 50%;
+margin: auto;
+}
+
+    #Image1{
+        display: block;
+        border-radius: 50%;
+        margin-left: 0px;
+        padding: 4px 0px 0px 0px;
+        margin:  auto;
+    }   
+
+    .social-links {
+  list-style: none; /* حذف النقاط السوداء */
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 10px; /* مسافة بين الروابط */
+}
+
+.social-links a {
+  display: block;      /* يجعل الرابط يأخذ عرض الصندوق كاملاً */
+  padding: 12px;
+  background-color: #4E4E50; /* الرمادي الذي اخترته */
+  color: white;
+  text-decoration: none;    /* حذف الخط تحت الرابط */
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #000000; /* يتحول للأحمر عند مرور الماوس */
+}
+
+
+@media screen and (max-width: 600px) {
+  /* تنسيقات خاصة بالجوال فقط */
+  .container { width: 100%; }
+}
