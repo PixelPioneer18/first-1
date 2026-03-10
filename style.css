@@ -2,6 +2,9 @@ body {
     background-color: 
     rgba(27, 27, 27, 0.974);
     cursor: grab;
+    width: 40x;
+    margin: auto;
+
 }
 
 
@@ -13,8 +16,14 @@ div{
     border: 1px solid #ffffff;
     text-align: center;
     width: 100%;
+    height: 150px;;
     background-color: rgba(128, 128, 128, 0.6);
     margin: auto;
+    .container{
+    max-width:1400px;
+
+}
+
 }
 a{
     color: #ffffff;
@@ -29,14 +38,14 @@ a:active {
     border: #ffffff solid 1px;
     background-color: rgb(1, 4, 9);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    padding: 5px;
+    padding: 35px;
 }
 
 #twitter{
     border: #ffffff solid 1px;
     background-color: rgb(1, 4, 9);
     font-family: 'Ubuntu', sans-serif;
-    padding: 5px;
+    padding: 35px;
 }
 
 #discord{
@@ -44,14 +53,14 @@ a:active {
     background-color: rgb(1, 4, 9);
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    padding: 5px;
+    padding: 35px;
 }
 
 #instagram{
     border: #ffffff solid 1px;
     background-color: rgb(1, 4, 9);
     font-family: 'Roboto', sans-serif;
-    padding: 5px;
+    padding: 35px;
 }
 
 #tellonym{
@@ -59,7 +68,7 @@ a:active {
     background-color: rgb(1, 4, 9);
     font-family: 'Poppins', sans-serif;
 
-    padding: 5px;
+    padding: 35px;
 }
 #github:hover{
     background-color: rgb(36, 41, 47)
